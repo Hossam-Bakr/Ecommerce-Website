@@ -1,0 +1,183 @@
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+body {
+    background-color: #f4f4f4;
+}
+button{
+    border: 0;
+    outline: none ;
+    border-radius: 6px ;
+}
+
+
+.astrisk {
+    font-size: 25px;
+    color: red;
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    z-index: 100 !important;
+    transform: translate(-50%, -50%);
+}
+
+
+.title, h1 {
+    color: #666 !important;
+    margin-bottom: 20px ;
+}
+
+.nice-message{
+    padding: 8px;
+    border-left: 3px solid #ea0687;
+    background-color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 0px 133px 1px #fff  , 1px 1px 120px #eee inset; ;
+    margin-bottom: 15px;
+
+}
+/* start upper bar */
+.upper-bar{
+    background-color: #444;
+    color: #fff;
+}
+/* end upper bar */
+
+/* ------------------------------------------------------------------ start home page   ----------------------------------------------*/
+.homepage {
+    display: flex;
+font-weight: bold;
+}
+.homepage:hover {
+    color: #0ed8d8;
+}
+.item-data{
+    background-color: #9e9696;
+    position: relative;
+}
+.categories-items .item-data span{
+    background-color: #09c;
+    padding: 2px 10px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #fff;
+}
+.clear {
+    clear: both;
+}
+/* ------------------------------------------------------------------ end home page   ----------------------------------------------*/
+/*  start the sign up and login page */
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px ;
+}
+.icons img{
+    width: 30px ;
+    height: 30px ;
+    margin: 0 5px ;
+    border-radius: 50% !important;
+    background-color: #09c !important;
+}
+
+
+#chk {
+    display: none ;
+}
+.signup{
+    transform: translateY(3%);
+   border-top-left-radius: 55px ;
+    border-top-right-radius: 55px ;
+
+}
+.main .spetial-container{
+    border-radius: 30px ;
+
+}
+#chk:checked ~ .signup{
+    transform: translate(0  ,-80%  );
+    box-shadow: 1px 1px 100px 20px #000 ;
+
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: hsla(212, 35%, 58%, 1);
+
+    background: linear-gradient(90deg, hsla(212, 35%, 58%, 1) 0%, hsla(218, 32%, 80%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(212, 35%, 58%, 1) 0%, hsla(218, 32%, 80%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(212, 35%, 58%, 1) 0%, hsla(218, 32%, 80%, 1) 100%);
+
+}
+
+.main .spetial-container {
+    height: 500px ;
+    overflow: hidden;
+    background-image: url(../images/pexels-dan-hadley-6017481.jpg);
+    background-size: cover;
+}
+.signup form , .login form  {
+    width: 80%;
+    margin: 10px auto ;
+}
+.main input , .main button  {
+    margin: 8px 0 ;
+}
+.login  , .signup {
+    min-height: 400px ;
+    width: 350px ;
+    transition: 0.5s ;
+    color: #fff;
+
+}
+.signup {
+    background-image: url(../images/pexels-dan-hadley-6017481.jpg);
+    background-size: cover;
+    border-top: 4px solid #ff6b6b;
+}
+.signup button , .login button{
+    background-color: #8e44ad;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px ;
+    width: 60% ;
+    padding: 6px 15px ;
+}
+
+/*  end  the sign up and login page */
+
+
+/* start styling of profile page  */
+ .user-information li{
+    padding: 2px 5px ;
+    margin: 8px 0;
+ }
+ .user-information li:nth-child(odd){
+    background-color: #eee;
+ }
+/* end styling of profile page  */
+
+
+
+
+
+
+

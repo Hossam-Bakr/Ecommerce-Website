@@ -1,0 +1,282 @@
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+body {
+    background-color: #f4f4f4;
+}
+
+.astrisk {
+    font-size: 25px;
+    color: red;
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    z-index: 100 !important;
+    transform: translate(-50%, -50%);
+}
+
+.form-control-lg {
+    position: relative;
+}
+
+.login {
+    width: 300px !important;
+    height: 250px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.login input {
+    background-color: #EAEAEA;
+}
+
+.login input::placeholder {
+    color: rgb(3, 34, 88, 0.7);
+}
+
+.login button {
+    background-color: rgb(72, 12, 212);
+}
+
+.login h3 {
+    opacity: 0.9;
+}
+.eye{
+    right: 30px !important ;
+}
+
+.dropdown {
+    padding: 0 10px;
+    border-radius: 15px;
+
+}
+
+.dropdown:hover {
+    transition: all .5s;
+    background-color: #74b9ff;
+}
+
+.dropdown-menu {
+    position: absolute;
+    background-color: #74b9ff !important;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+
+.edit {
+    color: #666 !important;
+}
+
+
+.title, h1 {
+    color: #666 !important;
+}
+
+th {
+    background-color: #333 !important;
+    color: #fff;
+}
+/* ---------------------------------------start dashboard page ------------------------------------------------------*/
+.main-table {
+    box-shadow: 0px 1px 8px #888;
+}
+
+.table td {
+    border: 1px solid #ccc !important;
+    background-color: #fff;
+    vertical-align: middle;
+}
+
+.main-table .btn {
+    padding: 3px 7px !important;
+    margin: 0 3px;
+}
+
+
+/* start dashboard page  */
+.main-stats .stat {
+    padding: 25px;
+    border-radius: 15px;
+    margin: 15px 0 ;
+    color: #ffffff ;
+    overflow: hidden;
+    position: relative;
+}
+.main-stats .stat .info{
+    float: right;
+}
+.main-stats .stat .dashboard-icon {
+    position: absolute;
+    top: 35px;
+    left: 18px;
+    font-size: 70px !important;
+
+}
+.card-header .plus-minus-toggle:hover{
+    color: #09c;
+    cursor: pointer;
+}
+.Total_comments {
+    background-color: #3498db;
+}
+
+.Total_items {
+    background-color: #1abc9c;
+
+}
+
+.Total_members {
+    background-color: #8e44ad;
+}
+
+.Pinding_members {
+    background-color: #e67e22;
+}
+
+
+.main-stats h1 {
+    margin: 25px 0;
+    text-transform: uppercase !important;
+}
+
+.main-stats h3 {
+    text-transform: capitalize;
+
+}
+
+.main-stats span {
+    font-size: 2.5rem;
+}
+.list-users li .btn{
+    padding: 2px 6px !important;
+}
+.list-users li {
+    overflow: hidden !important;
+    margin: 5px 0 ;
+    padding: 3px 10px 3px 18px  ;
+}
+.list-users li:nth-child(odd) {
+    background-color: #EEE;
+}
+.comment-n {
+    width:80px  ;
+    margin-right: 20px ;
+}
+.comment-c {
+    width: calc(100% - 100px );
+    background-color: #eee;
+    position: relative;
+}
+
+
+.comment-c:before {
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 2px;
+    left: -28px;
+    border: 15px solid transparent;
+    border-right-color: #eee;
+}
+.nice-message{
+    padding: 8px;
+    border-left: 3px solid #ea0687;
+    background-color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0px 0px 133px 1px #fff  ,1px 1px 120px  #eee inset;  ;
+    margin-bottom: 15px;
+
+}
+
+/* ---------------------------------------end dashboard page ------------------------------------------------------*/
+
+
+.card-body {
+    padding: 10px  0  !important;
+}
+.categoryManage h1{
+    text-transform: uppercase !important;
+}
+.cat{
+    border-bottom: 2px dashed #ddd;
+    padding: 12px ;
+    position: relative;
+    overflow: hidden;
+}
+.card-body {
+    padding: 0 !important;
+}
+.cat:hover .categoriesBtns {
+    right: 10px !important;
+}
+.cat:hover{
+    background-color: #EEE;
+}
+.cat:last-of-type{
+    border-bottom: none;
+}
+.cat .categoriesBtns a {
+    padding: 1px 5px  !important;
+}
+.cat .categoriesBtns{
+    position: absolute !important;
+    top: 10px !important;
+    right: -140px !important;
+    transition: all 0.5s ease-in-out;
+
+}
+.card-header a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #5f5c5f;
+}
+
+.active {
+    color: #09c !important;
+}
+.cat .full-view p{
+    color: #626370;
+}
+.cat h5  {
+    margin-bottom: 0;
+    cursor: pointer;
+    color: rgba(64, 64, 67, 0.86);
+}
+.card-header .view {
+    cursor: pointer;
+}
+.manageCatsTitle{
+    color: #5c5959;
+}
+
+.card-header{
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #5f5c5f !important;
+}
+
+
+
+
+
+
