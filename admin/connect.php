@@ -12,5 +12,5 @@ try {
     $con=new PDO($dsn ,$user, $pass ,$options);
     $con->setAttribute(PDO::ATTR_ERRMODE , PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
-    echo "failed " .$e->getMessage();
+    echo "not connected to database " ; 
 }
