@@ -1,7 +1,7 @@
 
 <?php
 
-$dsn = "mysql:host=localhost;dbname=shop" ;
+$dsn = "mysql:host=127.0.0.1;dbname=shop" ;
 $user='root';
 $pass='';
 $options=array(

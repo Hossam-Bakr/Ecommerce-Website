@@ -1,6 +1,7 @@
 <?php
 global $css;
 global $con;
+
 $stmt = $con->prepare("SELECT * FROM categories");
 $stmt->execute();
 $cats = $stmt->fetchAll();
